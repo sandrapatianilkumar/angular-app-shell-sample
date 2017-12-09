@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background: #1976d2;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.container>div>img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
